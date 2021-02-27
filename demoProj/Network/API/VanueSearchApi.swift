@@ -26,8 +26,8 @@ class VanueSearchApi: FoursquareApi {
         }
     }
         
-    static func fetchData(api: FoursquareApi, success: @escaping SuccessResponseModel, failure: @escaping Failure) {
-        ApiClient().execute(api: api, params: api.queryParams, success: { (data) in
+    func fetchData(success: @escaping SuccessResponseModel, failure: @escaping Failure) {
+        ApiClient().execute(api: self, params: self.queryParams, success: { (data) in
             if let fullResponse = try? JSONDecoder().decode(Welcome.self, from: data) {
                 success(fullResponse.response.venues)
             }
