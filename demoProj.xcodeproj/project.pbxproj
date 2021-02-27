@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DC0CCEF081E721322BB6637 /* libPods-demoProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD500CF20C9487139EDC4CA1 /* libPods-demoProj.a */; };
+		DF2D3BD425EAB862007EF680 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D3BD325EAB862007EF680 /* APIClient.swift */; };
+		DF2D3BE225EABACA007EF680 /* VanueSearchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D3BE125EABACA007EF680 /* VanueSearchApi.swift */; };
+		DF2D3BEE25EABC24007EF680 /* EnvironmentConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D3BED25EABC24007EF680 /* EnvironmentConfig.swift */; };
+		DF82C77325E5EB32007DD575 /* VanueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF82C77225E5EB32007DD575 /* VanueTableViewCell.swift */; };
 		DFD060E125E5D2AA00116F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD060E025E5D2AA00116F0C /* AppDelegate.swift */; };
 		DFD060E325E5D2AA00116F0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD060E225E5D2AA00116F0C /* SceneDelegate.swift */; };
-		DFD060E525E5D2AA00116F0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD060E425E5D2AA00116F0C /* ViewController.swift */; };
 		DFD060E825E5D2AA00116F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD060E625E5D2AA00116F0C /* Main.storyboard */; };
 		DFD060EA25E5D2AB00116F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD060E925E5D2AB00116F0C /* Assets.xcassets */; };
 		DFD060ED25E5D2AB00116F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD060EB25E5D2AB00116F0C /* LaunchScreen.storyboard */; };
 		DFD060F825E5D2AB00116F0C /* demoProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD060F725E5D2AB00116F0C /* demoProjTests.swift */; };
 		DFD0610325E5D2AB00116F0C /* demoProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0610225E5D2AB00116F0C /* demoProjUITests.swift */; };
+		DFD0611425E5D3D800116F0C /* CoffeePlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0611325E5D3D800116F0C /* CoffeePlacesViewController.swift */; };
+		DFD0611A25E5DCAD00116F0C /* CoffeePlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0611925E5DCAD00116F0C /* CoffeePlacesViewModel.swift */; };
+		DFD0612025E5DE1A00116F0C /* VanueSearchResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0611F25E5DE1A00116F0C /* VanueSearchResponseModel.swift */; };
+		DFD0612925E5E13900116F0C /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0612825E5E13900116F0C /* GenericViewController.swift */; };
+		DFD5BCE725EAE49D003339A2 /* VanuesSearch.json in Resources */ = {isa = PBXBuildFile; fileRef = DFD5BCE625EAE49D003339A2 /* VanuesSearch.json */; };
+		DFEFC9E825E5F242007D8C79 /* FoursquareApis.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFEFC9E725E5F242007D8C79 /* FoursquareApis.plist */; };
+		DFEFC9EA25E5F269007D8C79 /* FoursquareApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFC9E925E5F269007D8C79 /* FoursquareApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		440BD79C37DA85EEDAC9B281 /* Pods-demoProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoProj.debug.xcconfig"; path = "Target Support Files/Pods-demoProj/Pods-demoProj.debug.xcconfig"; sourceTree = "<group>"; };
+		7DB059CDE63AFB0EFE8A80FD /* Pods-demoProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoProj.release.xcconfig"; path = "Target Support Files/Pods-demoProj/Pods-demoProj.release.xcconfig"; sourceTree = "<group>"; };
+		BD500CF20C9487139EDC4CA1 /* libPods-demoProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demoProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2D3BD325EAB862007EF680 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		DF2D3BE125EABACA007EF680 /* VanueSearchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanueSearchApi.swift; sourceTree = "<group>"; };
+		DF2D3BED25EABC24007EF680 /* EnvironmentConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentConfig.swift; sourceTree = "<group>"; };
+		DF82C77225E5EB32007DD575 /* VanueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanueTableViewCell.swift; sourceTree = "<group>"; };
 		DFD060DD25E5D2AA00116F0C /* demoProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD060E025E5D2AA00116F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD060E225E5D2AA00116F0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DFD060E425E5D2AA00116F0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFD060E725E5D2AA00116F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFD060E925E5D2AB00116F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD060EC25E5D2AB00116F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,13 @@
 		DFD060FE25E5D2AB00116F0C /* demoProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD0610225E5D2AB00116F0C /* demoProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoProjUITests.swift; sourceTree = "<group>"; };
 		DFD0610425E5D2AB00116F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD0611325E5D3D800116F0C /* CoffeePlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeePlacesViewController.swift; sourceTree = "<group>"; };
+		DFD0611925E5DCAD00116F0C /* CoffeePlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeePlacesViewModel.swift; sourceTree = "<group>"; };
+		DFD0611F25E5DE1A00116F0C /* VanueSearchResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanueSearchResponseModel.swift; sourceTree = "<group>"; };
+		DFD0612825E5E13900116F0C /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
+		DFD5BCE625EAE49D003339A2 /* VanuesSearch.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VanuesSearch.json; sourceTree = "<group>"; };
+		DFEFC9E725E5F242007D8C79 /* FoursquareApis.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FoursquareApis.plist; sourceTree = "<group>"; };
+		DFEFC9E925E5F269007D8C79 /* FoursquareApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC0CCEF081E721322BB6637 /* libPods-demoProj.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +101,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		449A303BA23E9FEF0FCF5FD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				440BD79C37DA85EEDAC9B281 /* Pods-demoProj.debug.xcconfig */,
+				7DB059CDE63AFB0EFE8A80FD /* Pods-demoProj.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73700A4107084EF78F204F4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD500CF20C9487139EDC4CA1 /* libPods-demoProj.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF2D3BEC25EABB39007EF680 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				DFD0611F25E5DE1A00116F0C /* VanueSearchResponseModel.swift */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		DF82C77A25E5EB36007DD575 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DF82C77225E5EB32007DD575 /* VanueTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		DFD060D425E5D2AA00116F0C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +141,8 @@
 				DFD060F625E5D2AB00116F0C /* demoProjTests */,
 				DFD0610125E5D2AB00116F0C /* demoProjUITests */,
 				DFD060DE25E5D2AA00116F0C /* Products */,
+				449A303BA23E9FEF0FCF5FD0 /* Pods */,
+				73700A4107084EF78F204F4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +161,10 @@
 			children = (
 				DFD060E025E5D2AA00116F0C /* AppDelegate.swift */,
 				DFD060E225E5D2AA00116F0C /* SceneDelegate.swift */,
-				DFD060E425E5D2AA00116F0C /* ViewController.swift */,
+				DFEFC9E325E5F1E5007D8C79 /* Network */,
+				DFD0612725E5E11B00116F0C /* ViewControllers */,
+				DFD0611E25E5DE0800116F0C /* Model */,
+				DFD5BCDD25EAE441003339A2 /* Test Data */,
 				DFD060E625E5D2AA00116F0C /* Main.storyboard */,
 				DFD060E925E5D2AB00116F0C /* Assets.xcassets */,
 				DFD060EB25E5D2AB00116F0C /* LaunchScreen.storyboard */,
@@ -128,6 +191,77 @@
 			path = demoProjUITests;
 			sourceTree = "<group>";
 		};
+		DFD0611825E5DC7700116F0C /* CoffeePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				DFD0611325E5D3D800116F0C /* CoffeePlacesViewController.swift */,
+				DFD0611925E5DCAD00116F0C /* CoffeePlacesViewModel.swift */,
+			);
+			path = CoffeePlaces;
+			sourceTree = "<group>";
+		};
+		DFD0611E25E5DE0800116F0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D3BEC25EABB39007EF680 /* ResponseModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFD0612725E5E11B00116F0C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DFD0612825E5E13900116F0C /* GenericViewController.swift */,
+				DF82C77A25E5EB36007DD575 /* Cells */,
+				DFD0611825E5DC7700116F0C /* CoffeePlaces */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DFD5BCDD25EAE441003339A2 /* Test Data */ = {
+			isa = PBXGroup;
+			children = (
+				DFD5BCE625EAE49D003339A2 /* VanuesSearch.json */,
+			);
+			path = "Test Data";
+			sourceTree = "<group>";
+		};
+		DFEFC9E325E5F1E5007D8C79 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DFEFC9E425E5F1F1007D8C79 /* API */,
+				DFEFC9E525E5F1FB007D8C79 /* Core */,
+				DFEFC9E625E5F20F007D8C79 /* Config */,
+				DFEFC9E725E5F242007D8C79 /* FoursquareApis.plist */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DFEFC9E425E5F1F1007D8C79 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D3BE125EABACA007EF680 /* VanueSearchApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DFEFC9E525E5F1FB007D8C79 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D3BD325EAB862007EF680 /* APIClient.swift */,
+				DFEFC9E925E5F269007D8C79 /* FoursquareApi.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DFEFC9E625E5F20F007D8C79 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D3BED25EABC24007EF680 /* EnvironmentConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFD0610725E5D2AB00116F0C /* Build configuration list for PBXNativeTarget "demoProj" */;
 			buildPhases = (
+				236C8ED0CDE0C852F2C7200C /* [CP] Check Pods Manifest.lock */,
 				DFD060D925E5D2AA00116F0C /* Sources */,
 				DFD060DA25E5D2AA00116F0C /* Frameworks */,
 				DFD060DB25E5D2AA00116F0C /* Resources */,
@@ -232,7 +367,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFD060ED25E5D2AB00116F0C /* LaunchScreen.storyboard in Resources */,
+				DFEFC9E825E5F242007D8C79 /* FoursquareApis.plist in Resources */,
 				DFD060EA25E5D2AB00116F0C /* Assets.xcassets in Resources */,
+				DFD5BCE725EAE49D003339A2 /* VanuesSearch.json in Resources */,
 				DFD060E825E5D2AA00116F0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +390,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		236C8ED0CDE0C852F2C7200C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demoProj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DFD060D925E5D2AA00116F0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFD060E525E5D2AA00116F0C /* ViewController.swift in Sources */,
 				DFD060E125E5D2AA00116F0C /* AppDelegate.swift in Sources */,
+				DF2D3BEE25EABC24007EF680 /* EnvironmentConfig.swift in Sources */,
+				DFD0611A25E5DCAD00116F0C /* CoffeePlacesViewModel.swift in Sources */,
+				DFD0612025E5DE1A00116F0C /* VanueSearchResponseModel.swift in Sources */,
+				DFD0612925E5E13900116F0C /* GenericViewController.swift in Sources */,
+				DF82C77325E5EB32007DD575 /* VanueTableViewCell.swift in Sources */,
 				DFD060E325E5D2AA00116F0C /* SceneDelegate.swift in Sources */,
+				DFEFC9EA25E5F269007D8C79 /* FoursquareApi.swift in Sources */,
+				DFD0611425E5D3D800116F0C /* CoffeePlacesViewController.swift in Sources */,
+				DF2D3BD425EAB862007EF680 /* APIClient.swift in Sources */,
+				DF2D3BE225EABACA007EF680 /* VanueSearchApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +603,7 @@
 		};
 		DFD0610825E5D2AB00116F0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440BD79C37DA85EEDAC9B281 /* Pods-demoProj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +623,7 @@
 		};
 		DFD0610925E5D2AB00116F0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB059CDE63AFB0EFE8A80FD /* Pods-demoProj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
