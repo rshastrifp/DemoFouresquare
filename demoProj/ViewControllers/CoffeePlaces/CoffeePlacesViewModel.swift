@@ -10,12 +10,6 @@ import UIKit
 
 typealias SuccessViewModel = (_ vanues: [VenueViewModel]) -> Void
 
-struct Address {
-    var addressLine1: String
-    var addressLine2: String
-    var city: String
-}
-
 struct VenueViewModel {
     var id: String
     var venue: Venue

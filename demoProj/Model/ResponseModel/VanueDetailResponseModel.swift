@@ -12,6 +12,6 @@ struct VenueDetailsResponseModel {
         likeCount = json["likes"]["count"].int ?? 0
         let preFfix = json["photos"]["groups"][0]["items"][0]["prefix"].string ?? ""
         let suFfix = json["photos"]["groups"][0]["items"][0]["suffix"].string ?? ""
-        imageUrl = String(format: "%@300x500%@", preFfix,suFfix)
+        imageUrl = String(format: "%@75x75%@", preFfix,suFfix)
     }
 }

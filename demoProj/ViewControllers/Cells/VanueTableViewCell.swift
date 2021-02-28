@@ -25,11 +25,13 @@ class VanueTableViewCell: UITableViewCell {
     
     func setTumbImage(urlString: String) {
         print(urlString)
-        if let url = URL(string: urlString) {
-            if let data = try? Data(contentsOf: url) {
-                if let image = UIImage(data: data) {
-                    DispatchQueue.main.async {
-                        self.imageView?.image = image
+        DispatchQueue.global().async { [weak self] in
+            if let url = URL(string: urlString) {
+                if let data = try? Data(contentsOf: url) {
+                    if let image = UIImage(data: data) {
+                        DispatchQueue.main.async {
+                            self?.imageView?.image = image
+                        }
                     }
                 }
             }
