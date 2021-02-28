@@ -52,6 +52,9 @@ extension CoffeePlacesViewController: UITableViewDelegate, UITableViewDataSource
 }
 
 extension CoffeePlacesViewController: CoffeePlacesViewModelDelegate {
+    //This is the demo of second method (Protocol oriented) to communicate between ViewController and ViewModel.
+    //There is third method which is observer pattern using RxSwift.
+    //I had used that for my past projects as well. 
     func viewModelUpdated(indexPath: IndexPath) {
         DispatchQueue.main.async {
             self.tableVanues.reloadRows(at: [indexPath], with: .none)

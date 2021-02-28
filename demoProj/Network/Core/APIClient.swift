@@ -30,6 +30,7 @@ class ApiClient {
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "GET"
         
+        //Alamofire can also be used here for many advanced functions of web API. 
         URLSession.shared.dataTask(with: urlRequest, completionHandler: { (data, response, error) in
             
             guard let data = data, let httpResponse = response as? HTTPURLResponse, error == nil else {

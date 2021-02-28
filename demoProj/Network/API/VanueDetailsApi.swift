@@ -34,12 +34,16 @@ class VanueDetailsApi: FoursquareApi {
         ApiClient().execute(api: self, params: self.queryParams, success: { (data) in
             if let json = try? JSON(data: data) {
                 let venue = json["response"]["venue"]
+                //This is second demo without Codable protocol and using swifty JSON.
                 let venueDetails = VenueDetailsResponseModel(json: venue)
                 success(venueDetails)
             }
         }) { (error) in
             print(error)
             //In the fallback scenario I will use local test data.
+            //Actually Foursquare API was not consistance for me.
+            //Response was ON/OFF for me. So I copied it in local JSON file.
+            //And finish integration of the app with static data as my purpose was just to demo. 
             if let testJsonData = self.readLocalTestData() {
                 print("Using Local test data as fall back from failed web response.")
                 if let json = try? JSON(data: testJsonData) {

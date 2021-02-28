@@ -19,7 +19,7 @@ class FoursquareApi: ApiProtocol {
     static let baseUrl = "https://api.foursquare.com/v2/"
     static let client_id = "NZSECKDSFUYTLAS310ES5ZH0JA4ZIX2XRUMWZUGV2KFT1DGO"
     static let client_secret = "2N2MFKKVJ2FIXA0J5H1OF2FDAKQ4IYNSYEMFGOPRAERWKXCA"
-    static let v = "20180323"
+    static let v = "20200326"
     static let defaultQueries = [
         FoursquareApi.queryParamsStrings.client_id.rawValue: FoursquareApi.client_id,
         FoursquareApi.queryParamsStrings.client_secret.rawValue: FoursquareApi.client_secret,

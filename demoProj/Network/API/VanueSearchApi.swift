@@ -27,12 +27,16 @@ class VanueSearchApi: FoursquareApi {
         
     func fetchData(success: @escaping SuccessResponseVanueList, failure: @escaping Failure) {
         ApiClient().execute(api: self, params: self.queryParams, success: { (data) in
+            //This is first demo of using CODABLE protocol. 
             if let fullResponse = try? JSONDecoder().decode(VanueSearchResponseModel.self, from: data) {
                 success(fullResponse.response.venues)
             }
         }) { (error) in
             print(error)
             //In the fallback scenario I will use local test data.
+            //Actually Foursquare API was not consistance for me.
+            //Response was ON/OFF for me. So I copied it in local JSON file.
+            //And finish integration of the app with static data as my purpose was just to demo.
             if let testJsonData = self.readLocalTestData() {
                 print("Using Local test data as fall back from failed web response.")
                 if let fullResponse = try? JSONDecoder().decode(VanueSearchResponseModel.self, from: testJsonData) {

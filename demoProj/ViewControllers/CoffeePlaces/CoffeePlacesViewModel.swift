@@ -31,6 +31,7 @@ class CoffeePlacesViewModel {
     var listVanues: [VenueViewModel] = [VenueViewModel]()
     var delegate: CoffeePlacesViewModelDelegate?
     
+    //This is the demo of one method (completion handeler) to communicate between ViewController and ViewModel.
     func fetchVanues(success: @escaping SuccessViewModel, failure: @escaping Failure) {
         let queries: [String: String] = [
                 FoursquareApi.queryParamsStrings.ll.rawValue: "37.77518694034222, -122.39788356139775",
@@ -69,16 +70,10 @@ class CoffeePlacesViewModel {
     func fetchVanueDetails(vanueId: String, success: @escaping SuccessViewModel, failure: @escaping Failure) {
         VanueDetailsApi(vanueId: vanueId).fetchVenueDetails { [weak self] (vanue) in
             guard let strongSelf = self else { return }
-            
             if let index = strongSelf.findIndex(vanue.id) {
                 strongSelf.listVanues[index].likes = vanue.likeCount
                 strongSelf.listVanues[index].imageUrl = vanue.imageUrl
             }
-            
-            
-//            var viewModel = strongSelf.listVanues.filter({ $0.id == vanueId }).first
-//            viewModel?.likes = vanue.likeCount
-//            viewModel?.imageUrl = vanue.imageUrl
             success(strongSelf.listVanues)
         } failure: { (error) in
             print(error)
@@ -86,7 +81,7 @@ class CoffeePlacesViewModel {
         }
     }
     
-    func findIndex(_ id: String) -> Int? {
+    private func findIndex(_ id: String) -> Int? {
         for (index,item) in listVanues.enumerated() {
             if (item.id == id) {
                 return index

@@ -15,13 +15,6 @@ class VanueTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     func configureCell(title: String, details: String, tumbImageUrl: String) {
@@ -42,5 +35,9 @@ class VanueTableViewCell: UITableViewCell {
             }
         }
         self.imageView?.image = UIImage(named: "Placeholder")
+    }
+    
+    override func prepareForReuse() {
+        self.imageView?.image = UIImage()
     }
 }
