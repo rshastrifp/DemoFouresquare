@@ -10,6 +10,7 @@ import Foundation
 struct EnvironmentConfig {
     struct pathKey {
         static var vanueSearch: String {return "search"}
+        static var vanueDetails: String {return "details"}
     }
     
     static var FoursquareApiList:[String: String] {

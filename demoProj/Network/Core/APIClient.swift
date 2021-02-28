@@ -18,13 +18,6 @@ class ApiClient {
         
         guard let url = URL(string: api.uri) else { return }
         
-//        //Almofire can also be used for more advanced functions.
-//        URLSession.shared.dataTask(with: url) { (data, response, err) in
-//            guard let dataPrm = data else { return }
-//            success(dataPrm)
-//        }.resume()
-        
-        
         var urlComp = URLComponents(string: api.uri)!
         var items = [URLQueryItem]()
         for (key,value) in params {
@@ -36,9 +29,6 @@ class ApiClient {
         }
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "GET"
-        
-//        let config = URLSessionConfiguration.default
-//        let session = URLSession(configuration: config)
         
         URLSession.shared.dataTask(with: urlRequest, completionHandler: { (data, response, error) in
             

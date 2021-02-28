@@ -1,0 +1,812 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "603a8339c93ebf4f0db5558f"
+    },
+    "response": {
+        "venue": {
+            "id": "4a844f01f964a5203bfc1fe3",
+            "name": "Philz Coffee",
+            "contact": {
+                "phone": "4158759943",
+                "formattedPhone": "(415) 875-9943",
+                "twitter": "philzcoffee",
+                "facebook": "105263574645461",
+                "facebookName": "Philz Coffee"
+            },
+            "location": {
+                "address": "201 Berry St",
+                "crossStreet": "at 4th St",
+                "lat": 37.775563171939496,
+                "lng": -122.39342495851827,
+                "labeledLatLngs": [
+                    {
+                        "label": "entrance",
+                        "lat": 37.775532,
+                        "lng": -122.393493
+                    },
+                    {
+                        "label": "display",
+                        "lat": 37.775563171939496,
+                        "lng": -122.39342495851827
+                    }
+                ],
+                "postalCode": "94158",
+                "cc": "US",
+                "neighborhood": "Mission Bay",
+                "city": "San Francisco",
+                "state": "CA",
+                "country": "United States",
+                "formattedAddress": [
+                    "201 Berry St (at 4th St)",
+                    "San Francisco, CA 94158",
+                    "United States"
+                ]
+            },
+            "canonicalUrl": "https://foursquare.com/v/philz-coffee/4a844f01f964a5203bfc1fe3",
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1e0931735",
+                    "name": "Coffee Shop",
+                    "pluralName": "Coffee Shops",
+                    "shortName": "Coffee Shop",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                },
+                {
+                    "id": "4bf58dd8d48988d16d941735",
+                    "name": "Café",
+                    "pluralName": "Cafés",
+                    "shortName": "Café",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "verified": true,
+            "stats": {
+                "tipCount": 310,
+                "usersCount": 0,
+                "checkinsCount": 0,
+                "visitsCount": 0
+            },
+            "url": "http://www.philzcoffee.com",
+            "price": {
+                "tier": 2,
+                "message": "Moderate",
+                "currency": "$"
+            },
+            "hasMenu": true,
+            "likes": {
+                "count": 1080,
+                "groups": [
+                    {
+                        "type": "others",
+                        "count": 1080,
+                        "items": []
+                    }
+                ],
+                "summary": "1080 Likes"
+            },
+            "dislike": false,
+            "ok": false,
+            "rating": 8.7,
+            "ratingColor": "73CF42",
+            "ratingSignals": 1428,
+            "menu": {
+                "type": "Menu",
+                "label": "Menu",
+                "anchor": "View Menu",
+                "url": "https://foursquare.com/v/philz-coffee/4a844f01f964a5203bfc1fe3/menu",
+                "mobileUrl": "https://foursquare.com/v/4a844f01f964a5203bfc1fe3/device_menu"
+            },
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+                "count": 0,
+                "unconfirmedCount": 0,
+                "marked": false,
+                "lastCheckinExpiredAt": 0
+            },
+            "specials": {
+                "count": 0,
+                "items": []
+            },
+            "photos": {
+                "count": 1003,
+                "groups": [
+                    {
+                        "type": "venue",
+                        "name": "Venue photos",
+                        "count": 1003,
+                        "items": [
+                            {
+                                "id": "515df314498eb1fff0c510b8",
+                                "createdAt": 1365111572,
+                                "source": {
+                                    "name": "Instagram",
+                                    "url": "http://instagram.com"
+                                },
+                                "prefix": "https://fastly.4sqi.net/img/general/",
+                                "suffix": "/313179_W3r42kWLmA3yGEtTjlQFtEtoi3syWWv2FxLM-_TmBII.jpg",
+                                "width": 612,
+                                "height": 612,
+                                "visibility": "public"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "reasons": {
+                "count": 1,
+                "items": [
+                    {
+                        "summary": "Lots of people like this place",
+                        "type": "general",
+                        "reasonName": "rawLikesReason"
+                    }
+                ]
+            },
+            "description": "WE DO COFFEE DIFFERENTLY\nWhen you visit a Philz shop, you'll be greeted by one of our awesome and knowledgeable baristas excited to help you find the perfect blend!",
+            "page": {
+                "pageInfo": {
+                    "banner": "https://is1.4sqi.net/userpix/20QYENIGAMDGB5LM.jpg",
+                    "links": {
+                        "count": 1,
+                        "items": [
+                            {
+                                "url": "http://www.philzcoffee.com"
+                            }
+                        ]
+                    }
+                },
+                "user": {
+                    "firstName": "Philz Coffee",
+                    "countryCode": "US",
+                    "type": "chain",
+                    "tips": {
+                        "count": 0
+                    },
+                    "lists": {
+                        "groups": [
+                            {
+                                "type": "created",
+                                "count": 2,
+                                "items": []
+                            }
+                        ]
+                    },
+                    "bio": ""
+                }
+            },
+            "hereNow": {
+                "count": 0,
+                "summary": "Nobody here",
+                "groups": []
+            },
+            "createdAt": 1250184961,
+            "tips": {
+                "count": 310,
+                "groups": [
+                    {
+                        "type": "others",
+                        "name": "All tips",
+                        "count": 310,
+                        "items": [
+                            {
+                                "id": "4ce41c9f857b8eeccb07e7c0",
+                                "createdAt": 1290017951,
+                                "text": "Phil Jaber and his son Jacob spent several months developing each blend. Phil's Tesora or \"Treasure\" blend took 7 years to find the perfect combination of beans.",
+                                "type": "user",
+                                "canonicalUrl": "https://foursquare.com/item/4ce41c9f857b8eeccb07e7c0",
+                                "lang": "en",
+                                "likes": {
+                                    "count": 14,
+                                    "groups": [
+                                        {
+                                            "type": "others",
+                                            "count": 14,
+                                            "items": []
+                                        }
+                                    ],
+                                    "summary": "14 likes"
+                                },
+                                "logView": true,
+                                "agreeCount": 14,
+                                "disagreeCount": 0,
+                                "todo": {
+                                    "count": 19
+                                },
+                                "user": {
+                                    "firstName": "Mazda",
+                                    "countryCode": "US",
+                                    "type": "page"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "shortUrl": "http://4sq.com/a1mJR",
+            "timeZone": "America/Los_Angeles",
+            "listed": {
+                "count": 480,
+                "groups": [
+                    {
+                        "type": "others",
+                        "name": "Lists from other people",
+                        "count": 480,
+                        "items": [
+                            {
+                                "id": "5148f32fe4b0aa2e16298548",
+                                "name": "Best Coffices in San Francisco",
+                                "description": "Got some time between meetings? Get work done at one of these coffee shops offering free wifi, power outlets to recharge your laptop, and great coffee to recharge yourself! More at http://coffices.co",
+                                "entities": [
+                                    {
+                                        "indices": [
+                                            181,
+                                            199
+                                        ],
+                                        "type": "url",
+                                        "object": {
+                                            "url": "http://coffices.co"
+                                        }
+                                    }
+                                ],
+                                "type": "others",
+                                "user": {
+                                    "firstName": "Find a Coffice",
+                                    "countryCode": "US",
+                                    "type": "page"
+                                },
+                                "editable": false,
+                                "public": true,
+                                "collaborative": false,
+                                "url": "/cofficenearme/list/best-coffices-in-san-francisco",
+                                "canonicalUrl": "https://foursquare.com/cofficenearme/list/best-coffices-in-san-francisco",
+                                "createdAt": 1363735343,
+                                "updatedAt": 1558126516,
+                                "photo": {
+                                    "id": "51227a10e4b07e643d9a2c6c",
+                                    "createdAt": 1361213968,
+                                    "prefix": "https://fastly.4sqi.net/img/general/",
+                                    "suffix": "/16563_IKsxzxTdH65I5EUlSCXVo1S4kP-Kxev5kqBmhRiFbCc.jpg",
+                                    "width": 720,
+                                    "height": 960,
+                                    "visibility": "public"
+                                },
+                                "logView": true,
+                                "followers": {
+                                    "count": 527
+                                },
+                                "listItems": {
+                                    "count": 54,
+                                    "items": [
+                                        {
+                                            "id": "v4a844f01f964a5203bfc1fe3",
+                                            "createdAt": 1423714234
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "4e5730b5b0fbc75800b4fbfd",
+                                "name": "Best places to study in SF",
+                                "description": "\"Best\" because there's usually wifi, friendly people, late hours, and electrical outlets, but most DEFINITELY this collection of places bookmarks the places with the BEST ambiance.",
+                                "type": "others",
+                                "user": {
+                                    "firstName": "Leslie",
+                                    "lastName": "T",
+                                    "countryCode": "US"
+                                },
+                                "editable": false,
+                                "public": true,
+                                "collaborative": true,
+                                "url": "/les733/list/best-places-to-study-in-sf",
+                                "canonicalUrl": "https://foursquare.com/les733/list/best-places-to-study-in-sf",
+                                "createdAt": 1314336949,
+                                "updatedAt": 1558126549,
+                                "photo": {
+                                    "id": "4ee7e891f790a9d737c53c17",
+                                    "createdAt": 1323821201,
+                                    "prefix": "https://fastly.4sqi.net/img/general/",
+                                    "suffix": "/PZGKICHJKA3OLI0XMUFIH2JLNKB4LQUPNHXER0RZHJH1WEPA.jpg",
+                                    "width": 431,
+                                    "height": 720,
+                                    "visibility": "public"
+                                },
+                                "followers": {
+                                    "count": 172
+                                },
+                                "listItems": {
+                                    "count": 63,
+                                    "items": [
+                                        {
+                                            "id": "v4a844f01f964a5203bfc1fe3",
+                                            "createdAt": 1358458074
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "50365f26e4b045e72edba501",
+                                "name": "Free Wifi & Power in San Francisco",
+                                "description": "A list of places with free Wifi AND power outlets in San Francisco, if you need a place to work from all day or send that last email. \n\nFeel free to add Wifi passwords as tips. List is ever evolving.",
+                                "type": "others",
+                                "user": {
+                                    "firstName": "Tobias",
+                                    "lastName": "K",
+                                    "countryCode": "US"
+                                },
+                                "editable": false,
+                                "public": true,
+                                "collaborative": false,
+                                "url": "/tek/list/free-wifi--power-in-san-francisco",
+                                "canonicalUrl": "https://foursquare.com/tek/list/free-wifi--power-in-san-francisco",
+                                "createdAt": 1345740582,
+                                "updatedAt": 1418156121,
+                                "photo": {
+                                    "id": "50806715e4b0ca3a29834f8e",
+                                    "createdAt": 1350592277,
+                                    "prefix": "https://fastly.4sqi.net/img/general/",
+                                    "suffix": "/46557_NP4uUyvh3_bM8x6wbQYWBkeVTKnoBwNsb3a8F5wagUQ.jpg",
+                                    "width": 537,
+                                    "height": 720,
+                                    "visibility": "public"
+                                },
+                                "followers": {
+                                    "count": 123
+                                },
+                                "listItems": {
+                                    "count": 44,
+                                    "items": [
+                                        {
+                                            "id": "v4a844f01f964a5203bfc1fe3",
+                                            "createdAt": 1418155959
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "4eeaf57e02d5c4fc495c446a",
+                                "name": "Eat, Drink & Enjoy San Francisco",
+                                "description": "",
+                                "type": "others",
+                                "user": {
+                                    "firstName": "Art of Trade",
+                                    "lastName": "M",
+                                    "countryCode": "US"
+                                },
+                                "editable": false,
+                                "public": true,
+                                "collaborative": false,
+                                "url": "/artoftrade/list/eat-drink--enjoy-san-francisco",
+                                "canonicalUrl": "https://foursquare.com/artoftrade/list/eat-drink--enjoy-san-francisco",
+                                "createdAt": 1324021118,
+                                "updatedAt": 1391201720,
+                                "photo": {
+                                    "id": "4eeab1df0e01182cafad9f03",
+                                    "createdAt": 1324003807,
+                                    "prefix": "https://fastly.4sqi.net/img/general/",
+                                    "suffix": "/NDHFZOAPLIYIXC4WWVGIBKUKSN1KNG0P1I0TM0Z1WUGNIODN.jpg",
+                                    "width": 540,
+                                    "height": 720,
+                                    "visibility": "public"
+                                },
+                                "followers": {
+                                    "count": 88
+                                },
+                                "listItems": {
+                                    "count": 110,
+                                    "items": [
+                                        {
+                                            "id": "v4a844f01f964a5203bfc1fe3",
+                                            "createdAt": 1324505671
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "hours": {
+                "status": "Open until 6:00 PM",
+                "richStatus": {
+                    "entities": [],
+                    "text": "Open until 6:00 PM"
+                },
+                "isOpen": true,
+                "isLocalHoliday": false,
+                "dayData": [],
+                "timeframes": [
+                    {
+                        "days": "Mon–Thu",
+                        "open": [
+                            {
+                                "renderedTime": "6:00 AM–5:00 PM"
+                            }
+                        ],
+                        "segments": []
+                    },
+                    {
+                        "days": "Fri–Sun",
+                        "includesToday": true,
+                        "open": [
+                            {
+                                "renderedTime": "6:00 AM–6:00 PM"
+                            }
+                        ],
+                        "segments": []
+                    }
+                ]
+            },
+            "popular": {
+                "status": "Likely open",
+                "richStatus": {
+                    "entities": [],
+                    "text": "Likely open"
+                },
+                "isOpen": true,
+                "isLocalHoliday": false,
+                "timeframes": [
+                    {
+                        "days": "Today",
+                        "includesToday": true,
+                        "open": [
+                            {
+                                "renderedTime": "8:00 AM–6:00 PM"
+                            }
+                        ],
+                        "segments": []
+                    },
+                    {
+                        "days": "Sun",
+                        "open": [
+                            {
+                                "renderedTime": "8:00 AM–6:00 PM"
+                            }
+                        ],
+                        "segments": []
+                    },
+                    {
+                        "days": "Mon",
+                        "open": [
+                            {
+                                "renderedTime": "7:00 AM–5:00 PM"
+                            }
+                        ],
+                        "segments": []
+                    },
+                    {
+                        "days": "Tue",
+                        "open": [
+                            {
+                                "renderedTime": "7:00 AM–11:00 AM"
+                            },
+                            {
+                                "renderedTime": "1:00 PM–5:00 PM"
+                            }
+                        ],
+                        "segments": []
+                    },
+                    {
+                        "days": "Wed–Thu",
+                        "open": [
+                            {
+                                "renderedTime": "7:00 AM–4:00 PM"
+                            }
+                        ],
+                        "segments": []
+                    },
+                    {
+                        "days": "Fri",
+                        "open": [
+                            {
+                                "renderedTime": "7:00 AM–5:00 PM"
+                            }
+                        ],
+                        "segments": []
+                    }
+                ]
+            },
+            "seasonalHours": [
+                {
+                    "seasonalRange": "January 1–January 1",
+                    "timeframes": [
+                        {
+                            "days": "Mon–Thu",
+                            "open": [
+                                {
+                                    "renderedTime": "6:00 AM–5:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        },
+                        {
+                            "days": "Fri",
+                            "open": [
+                                {
+                                    "renderedTime": "8:00 AM–4:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        },
+                        {
+                            "days": "Sat–Sun",
+                            "open": [
+                                {
+                                    "renderedTime": "6:00 AM–6:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        }
+                    ]
+                },
+                {
+                    "seasonalRange": "November 20–November 26",
+                    "timeframes": [
+                        {
+                            "days": "Mon–Wed",
+                            "open": [
+                                {
+                                    "renderedTime": "6:00 AM–5:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        },
+                        {
+                            "days": "Thu",
+                            "open": [
+                                {
+                                    "renderedTime": "7:00 AM–2:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        },
+                        {
+                            "days": "Fri–Sun",
+                            "open": [
+                                {
+                                    "renderedTime": "6:00 AM–6:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        }
+                    ]
+                },
+                {
+                    "seasonalRange": "December 19–December 25",
+                    "timeframes": [
+                        {
+                            "days": "Mon–Wed",
+                            "open": [
+                                {
+                                    "renderedTime": "6:00 AM–5:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        },
+                        {
+                            "days": "Thu",
+                            "open": [
+                                {
+                                    "renderedTime": "5:30 AM–5:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        },
+                        {
+                            "days": "Sat–Sun",
+                            "open": [
+                                {
+                                    "renderedTime": "6:00 AM–6:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        }
+                    ]
+                },
+                {
+                    "seasonalRange": "December 26–December 31",
+                    "timeframes": [
+                        {
+                            "days": "Mon–Wed",
+                            "open": [
+                                {
+                                    "renderedTime": "6:00 AM–5:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        },
+                        {
+                            "days": "Thu",
+                            "open": [
+                                {
+                                    "renderedTime": "7:00 AM–4:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        },
+                        {
+                            "days": "Fri–Sun",
+                            "open": [
+                                {
+                                    "renderedTime": "6:00 AM–6:00 PM"
+                                }
+                            ],
+                            "segments": []
+                        }
+                    ]
+                }
+            ],
+            "defaultHours": {
+                "status": "Open until 6:00 PM",
+                "richStatus": {
+                    "entities": [],
+                    "text": "Open until 6:00 PM"
+                },
+                "isOpen": true,
+                "isLocalHoliday": false,
+                "dayData": [],
+                "timeframes": [
+                    {
+                        "days": "Mon–Thu",
+                        "open": [
+                            {
+                                "renderedTime": "6:00 AM–5:00 PM"
+                            }
+                        ],
+                        "segments": []
+                    },
+                    {
+                        "days": "Fri–Sun",
+                        "includesToday": true,
+                        "open": [
+                            {
+                                "renderedTime": "6:00 AM–6:00 PM"
+                            }
+                        ],
+                        "segments": []
+                    }
+                ]
+            },
+            "pageUpdates": {
+                "count": 0,
+                "items": []
+            },
+            "inbox": {
+                "count": 0,
+                "items": []
+            },
+            "venueChains": [],
+            "attributes": {
+                "groups": [
+                    {
+                        "type": "price",
+                        "name": "Price",
+                        "summary": "$$",
+                        "count": 1,
+                        "items": [
+                            {
+                                "displayName": "Price",
+                                "displayValue": "$$",
+                                "priceTier": 2
+                            }
+                        ]
+                    },
+                    {
+                        "type": "reservations",
+                        "name": "Reservations",
+                        "count": 3,
+                        "items": [
+                            {
+                                "displayName": "Reservations",
+                                "displayValue": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "payments",
+                        "name": "Credit Cards",
+                        "summary": "Credit Cards",
+                        "count": 7,
+                        "items": [
+                            {
+                                "displayName": "Credit Cards",
+                                "displayValue": "Yes (incl. American Express)"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "outdoorSeating",
+                        "name": "Outdoor Seating",
+                        "summary": "Outdoor Seating",
+                        "count": 1,
+                        "items": [
+                            {
+                                "displayName": "Outdoor Seating",
+                                "displayValue": "Yes"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "wifi",
+                        "name": "Wi-Fi",
+                        "summary": "Wi-Fi",
+                        "count": 1,
+                        "items": [
+                            {
+                                "displayName": "Wi-Fi",
+                                "displayValue": "Yes"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "serves",
+                        "name": "Menus",
+                        "summary": "Breakfast",
+                        "count": 8,
+                        "items": [
+                            {
+                                "displayName": "Breakfast",
+                                "displayValue": "Breakfast"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "restroom",
+                        "name": "Restroom",
+                        "summary": "Restroom",
+                        "count": 1,
+                        "items": [
+                            {
+                                "displayName": "Restroom",
+                                "displayValue": "Yes"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "wheelchairAccessible",
+                        "name": "Wheelchair Accessible",
+                        "summary": "Wheelchair Accessible",
+                        "count": 1,
+                        "items": [
+                            {
+                                "displayName": "Wheelchair Accessible",
+                                "displayValue": "Yes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bestPhoto": {
+                "id": "515df314498eb1fff0c510b8",
+                "createdAt": 1365111572,
+                "source": {
+                    "name": "Instagram",
+                    "url": "http://instagram.com"
+                },
+                "prefix": "https://fastly.4sqi.net/img/general/",
+                "suffix": "/313179_W3r42kWLmA3yGEtTjlQFtEtoi3syWWv2FxLM-_TmBII.jpg",
+                "width": 612,
+                "height": 612,
+                "visibility": "public"
+            },
+            "colors": {
+                "highlightColor": {
+                    "photoId": "515df314498eb1fff0c510b8",
+                    "value": -15200224
+                },
+                "highlightTextColor": {
+                    "photoId": "515df314498eb1fff0c510b8",
+                    "value": -1
+                },
+                "algoVersion": 3
+            }
+        }
+    }
+}

@@ -25,17 +25,18 @@ class CoffeePlacesViewController: GenericViewController, ViewControllerProtocol 
         }, failure: { (error) in
             print(error)
         })
+        viewModel.delegate = self
         self.tableVanues.reloadData()
     }
 }
 
 extension CoffeePlacesViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "vanueCell", for: indexPath) as? VanueTableViewCell,
-           let vanue = self.viewModel.listVanues?[indexPath.row] {
-            cell.configureCell(title: vanue.name,
-                               details: viewModel.getFullAddress(addressArray: vanue.location.formattedAddress),
-                               tumbImage: UIImage())
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "vanueCell", for: indexPath) as? VanueTableViewCell {
+            let venue = self.viewModel.listVanues[indexPath.row].venue
+            cell.configureCell(title: venue.name,
+                               details: viewModel.getDetailsOfVanue(venue.id),
+                               tumbImageUrl: viewModel.getThumbImageUrl(venue.id))
             return cell
         }
         return UITableViewCell()
@@ -46,6 +47,14 @@ extension CoffeePlacesViewController: UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.listVanues?.count ?? 0
+        return viewModel.listVanues.count
+    }
+}
+
+extension CoffeePlacesViewController: CoffeePlacesViewModelDelegate {
+    func viewModelUpdated(indexPath: IndexPath) {
+        DispatchQueue.main.async {
+            self.tableVanues.reloadRows(at: [indexPath], with: .none)
+        }
     }
 }

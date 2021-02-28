@@ -6,9 +6,8 @@
 //
 
 import Foundation
-import SwiftyJSON
 
-typealias SuccessResponseModel = (_ tsnResponseModel: [Venue]) -> Void
+typealias SuccessResponseVanueList = (_ tsnResponseModel: [Venue]) -> Void
 
 class VanueSearchApi: FoursquareApi {
     override var uri: String {
@@ -26,7 +25,7 @@ class VanueSearchApi: FoursquareApi {
         }
     }
         
-    func fetchData(success: @escaping SuccessResponseModel, failure: @escaping Failure) {
+    func fetchData(success: @escaping SuccessResponseVanueList, failure: @escaping Failure) {
         ApiClient().execute(api: self, params: self.queryParams, success: { (data) in
             if let fullResponse = try? JSONDecoder().decode(Welcome.self, from: data) {
                 success(fullResponse.response.venues)
@@ -34,7 +33,7 @@ class VanueSearchApi: FoursquareApi {
         }) { (error) in
             print(error)
             //In the fallback scenario I will use local test data.
-            if let testJsonData = VanueSearchApi.readLocalTestData() {
+            if let testJsonData = self.readLocalTestData() {
                 print("Using Local test data as fall back from failed web response.")
                 if let fullResponse = try? JSONDecoder().decode(Welcome.self, from: testJsonData) {
                     success(fullResponse.response.venues)
@@ -43,7 +42,7 @@ class VanueSearchApi: FoursquareApi {
         }
     }
     
-    static func readLocalTestData() -> Data? {
+    func readLocalTestData() -> Data? {
         if let path = Bundle.main.path(forResource: "VanuesSearch", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)

@@ -24,10 +24,23 @@ class VanueTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configureCell(title: String, details: String, tumbImage: UIImage) {
+    func configureCell(title: String, details: String, tumbImageUrl: String) {
         self.labelName.text = title
         self.labelDetails.text = details
-        self.imageViewThumb?.image = tumbImage
+        setTumbImage(urlString: tumbImageUrl)
     }
-
+    
+    func setTumbImage(urlString: String) {
+        print(urlString)
+        if let url = URL(string: urlString) {
+            if let data = try? Data(contentsOf: url) {
+                if let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        self.imageView?.image = image
+                    }
+                }
+            }
+        }
+        self.imageView?.image = UIImage(named: "Placeholder")
+    }
 }
