@@ -7,7 +7,7 @@
 import Foundation
 
 // MARK: - Welcome
-struct Welcome: Codable {
+struct VanueSearchResponseModel: Codable {
     let meta: Meta
     let response: Response
 }

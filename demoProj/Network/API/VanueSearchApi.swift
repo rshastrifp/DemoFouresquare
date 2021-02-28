@@ -27,7 +27,7 @@ class VanueSearchApi: FoursquareApi {
         
     func fetchData(success: @escaping SuccessResponseVanueList, failure: @escaping Failure) {
         ApiClient().execute(api: self, params: self.queryParams, success: { (data) in
-            if let fullResponse = try? JSONDecoder().decode(Welcome.self, from: data) {
+            if let fullResponse = try? JSONDecoder().decode(VanueSearchResponseModel.self, from: data) {
                 success(fullResponse.response.venues)
             }
         }) { (error) in
@@ -35,7 +35,7 @@ class VanueSearchApi: FoursquareApi {
             //In the fallback scenario I will use local test data.
             if let testJsonData = self.readLocalTestData() {
                 print("Using Local test data as fall back from failed web response.")
-                if let fullResponse = try? JSONDecoder().decode(Welcome.self, from: testJsonData) {
+                if let fullResponse = try? JSONDecoder().decode(VanueSearchResponseModel.self, from: testJsonData) {
                     success(fullResponse.response.venues)
                 }
             }
