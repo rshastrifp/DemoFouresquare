@@ -1,7 +1,8 @@
 
 target 'demoProj' do
-    pod 'RxSwift', '5.0.1'
-    pod 'RxCocoa', '5.0.1'
-    pod 'Alamofire', '~> 5.2'
     pod 'SwiftyJSON', '~> 4.0'
+end
+
+target 'demoProjTests' do
+  pod 'SwiftyJSON', '~> 4.0'
 end

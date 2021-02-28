@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Alamofire
 
 typealias SuccessData = (_ data: Data) -> Void
 typealias Failure = (_ error: Any) -> Void

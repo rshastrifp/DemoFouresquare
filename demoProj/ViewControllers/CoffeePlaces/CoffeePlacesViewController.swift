@@ -14,6 +14,7 @@ class CoffeePlacesViewController: GenericViewController, ViewControllerProtocol 
     
     @IBOutlet weak var tableVanues: UITableView!
     
+//    "Actually Foursquere API was not consistent. Since the purpose was to demo coding skills local json files are used as fallback to demo the app."
     override func viewDidLoad() {
         super.viewDidLoad()
 
